@@ -4,10 +4,8 @@
         "typecheck": "vue-tsc --noEmit"
     },
     "devDependencies": {
-        "@vue/composition-api": "1.4.6",
-        "@vue/runtime-dom": "latest",
         "typescript": "4.2.4",
-        "vue": "2.6.14",
+        "vue": "3.2.29",
         "vue-tsc": "0.34.10"
     }
 }

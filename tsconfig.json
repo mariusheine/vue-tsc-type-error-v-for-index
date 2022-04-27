@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "lib": ["esnext", "dom", "webworker"],
+        "outDir": "dist",
+        "rootDir": ".",
+        "baseUrl": "src",
+        "alwaysStrict": true,
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        // "isolatedModules": true,
+        "noEmit": true, // ensure that nobody can accidentally use this config for a build
+        "sourceMap": true,
+        "removeComments": true,
+        "downlevelIteration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "jsx": "preserve",
+        "declaration": true,
+        "declarationMap": true,
+        "useDefineForClassFields": false
+    },
+    "include": ["src/**/*.ts", "src/**/*.vue"],
+    "vueCompilerOptions": {
+        "experimentalCompatMode": 2,
+        "experimentalTemplateCompilerOptions": {
+            "compatConfig": { "MODE": 2 } // optional
+        }
+    }
+  }

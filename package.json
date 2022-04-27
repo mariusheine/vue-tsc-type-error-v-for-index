@@ -1,0 +1,13 @@
+{
+    "name": "vue-tsc-type-error-v-for-index",
+    "scripts": {
+        "typecheck": "vue-tsc --noEmit"
+    },
+    "devDependencies": {
+        "@vue/composition-api": "1.4.6",
+        "@vue/runtime-dom": "latest",
+        "typescript": "4.2.4",
+        "vue": "2.6.14",
+        "vue-tsc": "0.34.10"
+    }
+}
